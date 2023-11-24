@@ -1,0 +1,45 @@
+* {
+  font-family: monospace;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  perspective: 1000px;
+}
+
+#app {
+  min-height: 300vh;
+  background: #0267C1;
+}
+
+#app .spacer {
+  height: 150vh;
+  background: #591F0A;
+}
+
+#app .hero {
+  max-width: 992px;
+  margin-inline: auto;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  /* opacity: 0; */ 
+  /* transform: translateY(100px) scale(0.8); */
+}
+
+#app .hero .content {
+  border: 0.1em solid #F1F7ED;
+  padding: 3.5em;
+  transition: all 0.3s;
+}
+
+#app .hero .content .btn {
+  all: unset;
+  color: #F1F7ED;
+  font-size: 0.75em;
+  cursor: pointer;
+}
+
+#app .hero .content .btn:hover {
+  text-decoration: underline;
+}
